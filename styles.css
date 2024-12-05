@@ -1,0 +1,622 @@
+/* styles.css */
+
+/* Add any custom styles here */
+
+
+.footer1 {
+    padding: 1rem 0;
+    text-align: center;
+    color: "red"; /* Tailwind's gray-600 */
+
+}
+
+.background-image1{
+    background-size: cover;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.left-section {
+    flex: 1;
+}
+.left-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+}
+.left-section h1 span {
+    display: block;
+}
+.left-section h1 span:first-child {
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+.right-section {
+    flex: 1;
+    padding-left: 50px;
+}
+.right-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+}
+.right-section p strong {
+    font-weight: 700;
+}
+.button-container {
+    margin-top: 50px;
+}
+.button-container a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.button-container a:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.button-container a i {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.container2 {
+    flex-direction: column;
+    padding: 200px;
+    height: 95vh;
+}
+.right-section {
+    padding-left: 0;
+    margin-top: 20px;
+}
+.left-section h1 {
+    font-size: 40px;
+}
+.left-section span {
+    font-size: 40px;
+}
+.right-section p {
+    font-size: 16px;
+}
+
+.footer10{
+    text-align: center;
+}
+.sec-page-button{
+    height: 100px;
+    font-size: 25px;
+    width: 230px;
+    border-radius: 20px;
+    box-shadow: 30px 15px 15px;
+}
+
+
+
+
+
+
+.carousel {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ff4d4d;
+  }
+  .carousel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+  }
+  .carousel-content {
+      position: absolute;
+      z-index: 2;
+      color: white;
+      text-align: center;
+      bottom: 20%;
+      width: 100%;
+  }
+  .carousel-content h1 {
+      font-size: 3em;
+      margin: 0;
+  }
+  .carousel-content p {
+      font-size: 1em;
+      margin: 0;
+  }
+  .carousel-nav {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      z-index: 2;
+  }
+  .carousel-nav i {
+      font-size: 2em;
+      color: white;
+      cursor: pointer;
+      padding: 0 20px;
+  }
+  .footer11{
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 0.8em;
+      z-index: 2;
+  }
+
+
+
+
+
+  .container3 {
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.title h1 span:first-child {
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+.description {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.cities-list {
+    text-align: left;
+}
+.cities-list ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+.cities-list ul li {
+    margin-bottom: 10px;
+}
+.map {
+    position: relative;
+    max-width: 600px;
+}
+.map img {
+    width: 100%;
+}
+.map .city {
+    position: absolute;
+    font-size: 16px;
+    color: #000;
+}
+.map .city i {
+    color: #007bff;
+}
+.city.delhi { top: 10%; left: 50%; transform: translate(-50%, -50%); }
+.city.mumbai { top: 50%; left: 30%; transform: translate(-50%, -50%); }
+.city.hyderabad { top: 60%; left: 60%; transform: translate(-50%, -50%); }
+.city.bengaluru { top: 70%; left: 50%; transform: translate(-50%, -50%); }
+.city.coimbatore { top: 80%; left: 50%; transform: translate(-50%, -50%); }
+.city.chennai { top: 80%; left: 60%; transform: translate(-50%, -50%); }
+.stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.stat {
+    flex: 1;
+    text-align: center;
+}
+.stat .number {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.stat .label {
+    font-size: 16px;
+    color: #666;
+}
+.footer {
+    font-size: 14px;
+    color: #666;
+    margin-top: 50px;
+}
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+
+
+
+
+.container4 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.header h1::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 40px;
+    background-color: red;
+    margin-right: 10px;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+.header a i {
+    margin-left: 5px;
+}
+.work-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.work-item {
+    position: relative;
+    width: 100%;
+}
+.work-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.work-item .nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.work-item .nav-arrow.left {
+    left: 10px;
+}
+.work-item .nav-arrow.right {
+    right: 10px;
+}
+.work-item .description {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+.work-item .description a {
+    text-decoration: none;
+    color: black;
+}
+.footer4 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+
+
+.container5 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-between;
+}
+.title1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.title1 span {
+    color: red;
+}
+.carousel1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.carousel-item-container {
+    margin: 0 10px;
+    text-align: start;
+    width: 300px;
+}
+.carousel-item1 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+.carousel-item1 img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+.carousel-item1 p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.carousel-item1 .date {
+    font-size: 14px;
+    color: #666;
+    text-align: end;
+}
+.carousel-nav {
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+.carousel-nav.left {
+    position: absolute;
+    left: 0;
+}
+.carousel-nav.right {
+    position: absolute;
+    right: 0;
+}
+.footer5 {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .carousel {
+        flex-direction: column;
+    }
+    .carousel-item-container {
+        margin: 10px 0;
+    }
+    .carousel-nav {
+        display: none;
+    }
+}
+
+.trademark {
+    font-size: 12px;
+    vertical-align: super;
+}
+
+
+
+
+.container6 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px;
+}
+.background-image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    height: 50px;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-content h1 {
+    font-size: 64px;
+    margin: 0;
+    color: white;
+    font-family: "Ariel";
+}
+.main-content p {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+}
+.main-content a {
+    color: white;
+    text-decoration: underline;
+}
+.footer14 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+.social-icons a {
+    color: white;
+    font-size: 24px;
+}
+.subscribe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.subscribe input {
+    padding: 10px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.subscribe button {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.subscribe button i {
+    font-size: 16px;
+}
+.footer p {
+    font-size: 14px;
+}
+@media (max-width: 768px) {
+    .main-content h1 {
+        font-size: 48px;
+    }
+    .nav a {
+        font-size: 16px;
+    }
+    .main-content p {
+        font-size: 16px;
+    }
+    .subscribe input {
+        width: 100px;
+    }
+}
+
+
+
+.footer15 {
+    background-color: #111;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.footer15 img {
+    width: 100px;
+}
+.footer15 .company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer15 .company-info p {
+    margin: 5px 0;
+}
+.footer15 .company-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer15 .company-links a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.footer15 .call-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer15 .call-us i {
+    font-size: 2em;
+    margin-top: 10px;
+}
+.footer-bottom {
+    background-color: #000;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-bottom .designed-with {
+    float: right;
+    margin-right: 20px;
+}
+@media (max-width: 768px) {
+    .footer15 {
+        flex-direction: column;
+    }
+    .footer-bottom .designed-with {
+        float: none;
+        margin-right: 0;
+    }
+}
